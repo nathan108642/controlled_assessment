@@ -1,30 +1,28 @@
-import requests
+allowables = ["pounds", "dollars", "euro", "yen"]
+rates = [1,2,3,4]
+pounds = 'pounds'
+dollars = 'dollars'
+yen = 'yen'
+euro = 'euro'
+print("Welcome to the currency converter")
 
-a = input('Enter currency to convert from?')
-a = a.upper()
+var1 = None
+while var1 not in range(len(allowables)):
+    print('Please type the currency code you wish to convert from')
+    for index, currency in enumerate(allowables):
+        print ('enter {0} for {1}'.format(index, currency))
+    var1 = input("Please type what currency you wish to convert from ")
+var1 = int(var1)
 
-b = input('Enter currency to convert to?')
-b = b.upper()
+var2 = None
+while var2 not in range(len(allowables)):
+    print('Please type the currency code you wish to convert to')
+    for index, currency in enumerate(allowables):
+        print ('enter {0} for {1}'.format(index, currency))
+    var2 = input("Please type the currency that you wish to convert to ")
+var2 = int(var2)
 
-c = float(input('Enter value to convert?'))
+var3 = float(input("Please type the amount of currency you wish to convert "))
 
-url = ('http://www.xe.com/currencyconverter/') % (a, b)
-print url
-
-r = requests.get(url)
-print r.json()['v']
-
-print c*r.json()['v']
-
-urlalt = ('http://www.xe.com/currencyconverter/') % (a, b)
-print urlalt
-
-#split and strip
-split1 = (' : 1 %s = ') % a
-strip1 = (' %s</h2>') % b
-
-ralt = requests.get(urlalt)
-d = float(ralt.text.split(split1)[1].split(strip1)[0].strip())
-print d
-
-print c * d
+ammount = var3/rates[var1] *rates[var2]
+print(' your converted ammount is {0} {1}'.format(ammount,allowables[var2]))
