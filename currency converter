@@ -8,7 +8,7 @@ b = b.upper()
 
 c = float(input('Enter value to convert?'))
 
-url = ('http://rate-exchange.appspot.com/currency?from=%s&to=%s&q=1') % (a, b)
+url = ('http://www.xe.com/currencyconverter/') % (a, b)
 print url
 
 r = requests.get(url)
@@ -16,7 +16,7 @@ print r.json()['v']
 
 print c*r.json()['v']
 
-urlalt = ('http://themoneyconverter.com/%s/%s.aspx') % (a, b)
+urlalt = ('http://www.xe.com/currencyconverter/') % (a, b)
 print urlalt
 
 #split and strip
