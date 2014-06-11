@@ -1,0 +1,23 @@
+import cgi
+import os
+import urllib
+
+ip = os.environ["REMOTE_ADDR"]
+url_string = "http://www.exchangerate-api.com/auto/USD/"+ip+"/12.50?k=API_KEY"
+url = urllib.urlopen(url_string)
+result = url.read()
+
+return_array = result.split('|')
+converted_amount = return_array[0]
+symbol_unicode = return_array[1]
+currency_code = return_array[2]
+
+print converted_amount #FINAL CONVERTED AMOUNT
+print currency_code #FINAL 3-DIGIT CURRENCY CODE (EG: USD)
+
+#If you want to display the currency's symbol in HTML:
+symbol_html = ""
+symbol_characters = symbol_unicode.split(',')
+for i in symbol_characters:
+    symbol_html = symbol_html+"&#"+i+";"
+print symbol_html #FINAL SYMBOL HTML (EG: $)
