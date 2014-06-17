@@ -7,6 +7,8 @@ in his programme i have made a curency
 
 
 
+```python
+
 allowables = ["pounds", "dollars", "euro", "yen"]
 rates = [1,1.68,1.23,171.61]
 def getChoice(dir):
@@ -31,3 +33,4 @@ var3 = float(input("Please type the amount of currency you wish to convert "))
 
 ammount = var3/rates[var1] *rates[var2]
 print(' your converted ammount is {0} {1}'.format(ammount,allowables[var2]))
+```
