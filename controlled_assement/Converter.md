@@ -1,3 +1,12 @@
+#report
+
+##task 1
+
+in his programme i have made a curency 
+
+
+
+
 allowables = ["pounds", "dollars", "euro", "yen"]
 rates = [1,1.68,1.23,171.61]
 def getChoice(dir):
