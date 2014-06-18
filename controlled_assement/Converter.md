@@ -1,5 +1,5 @@
-#report
-
+-#report
++#report
 ##task 1
 
 In this programme i have made a curency converter thats changes the money you type in to a different currency.the dsign of my programme was to try and make code that acts like a currency converter but try and make as short as i could.the code needed to convert money from euro, yen, pounds and dollars.the user need a code that works and is easy to use. 
