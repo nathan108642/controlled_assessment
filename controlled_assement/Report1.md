@@ -10,7 +10,7 @@ In this programme i have made a curency converter thats changes the money you ty
 
 In this programme I have made a curency converter.the user told me that i needed to make a code that contain the following:
 -The code should be able to have exchange rates changed by the user.
--The user shouldbe able to enter an amount, select the chosen currency for thisand the  currency into which this should be converted.
+ -The user shouldbe able to enter an amount, select the chosen currency for thisand the  currency into which this should be converted.
 -The figure shown should be displayed to two decimal places, for example to the nearest cent in US Dollars
 
 
