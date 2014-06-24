@@ -6,6 +6,8 @@
 In this programme i have made a curency converter thats changes the money you type in to a different currency.the dsign of my programme was to try and make code that acts like a currency converter but try and make as short as i could.the code needed to convert money from euro, yen, pounds and dollars.the user need a code that works and is easy to use. 
 
 ###Design
+
+
 In this programme I have made a curency converter.the user told me that i needed to make a code that contain the following:
 -The code should be able to have exchange rates changed by the user.
 -The user shouldbe able to enter an amount, select the chosen currency for thisand the  currency into which this should be converted.
