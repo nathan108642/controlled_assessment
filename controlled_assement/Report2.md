@@ -1,12 +1,14 @@
-``` python
+
 
 #report
 
 #task 2
 
-answer= raw_input("Are You Creating An Entry [Press 1] \nOr Are You Searching An Entry [Press 2] ")
 
 # IF we are creating 
+
+``` python 
+answer= raw_input("Are You Creating An Entry [Press 1] \nOr Are You Searching An Entry [Press 2] ")
 
 if answer == "1" : 
     #print ("This is where we create")
