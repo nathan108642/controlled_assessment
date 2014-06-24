@@ -7,8 +7,9 @@ In this programme i have made a curency converter thats changes the money you ty
 
 ###Design
 In this programme I have made a curency converter.the user told me that i needed to make a code that contain the following:
--the code should be able to have exchange rates changed by the user.
--the user shouod be able 
+-The code should be able to have exchange rates changed by the user.
+-The user shouldbe able to enter an amount, select the chosen currency for thisand the  currency into which this should be converted.
+-The figure shown should be displayed to two decimal places, for example to the nearest cent in US Dollars
 
 
 
@@ -43,7 +44,8 @@ var3 = float(input("Please type the amount of currency you wish to convert "))
 ammount = var3/rates[var1] *rates[var2]
 print(' your converted ammount is {0} {1}'.format(ammount,allowables[var2]))
 ```
-###Evaluation
+####Evaluation
+To evaluate my work i have sucesfully made a code that convestes one currency to another.
 
 
 
