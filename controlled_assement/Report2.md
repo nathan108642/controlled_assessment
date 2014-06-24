@@ -1,13 +1,14 @@
-
-
 #report
 
 #task 2
 
+in this task i was told to make a code that
 
+
+
+
+``` python
 # IF we are creating 
-
-``` python 
 answer= raw_input("Are You Creating An Entry [Press 1] \nOr Are You Searching An Entry [Press 2] ")
 
 if answer == "1" : 
