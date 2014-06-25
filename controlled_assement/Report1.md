@@ -1,6 +1,6 @@
 #report
 
-##task 1
+##Task 1
 
 
 In this programme i have made a curency converter thats changes the money you type in to a different currency.the dsign of my programme was to try and make code that acts like a currency converter but try and make as short as i could.the code needed to convert money from euro, yen, pounds and dollars.the user need a code that works and is easy to use. 
@@ -9,15 +9,15 @@ In this programme i have made a curency converter thats changes the money you ty
 
 
 In this programme I have made a curency converter.the user told me that i needed to make a code that contain the following:
-The code should be able to have exchange rates changed by the user.The user shouldbe able to enter an amount, select the chosen currency for thisand the  currency into which this should be converted.The figure shown should be displayed to two decimal places, for example to the nearest cent in US Dollars.
+The code should be able to have exchange rates changed by the user.The user shouldbe able to enter an amount, select the chosen currency for thisand the  currency into which this should be converted.The figure shown should be displayed to two decimal places, for example to the nearest cent in US Dollars.The program uses a numbers 0 to 3 to decide which currency you want to convert to.
 
 ####Pseudo code
 ```
 It will ask for what money you want to convert from.
-It asks for the numbers 1 to 4.
-This means if the user inputs 1 its pounds, if the user inputs 2 its euros and so on.
+It asks for the numbers 0 to 3.
+This means if the user inputs 0 its pounds, if the user inputs 1 its euros and so on.
 After that it then asks what currency you want to convert to.
-Once again it asks the user to input 1 to 4 numbers.
+Once again it asks the user to input 0 to 3 numbers.
 It then takes the numbers (Rates) and multiplys then together.
 It then prints out the answer.
 The answer is the value of the two numbers you just multiplyed.
@@ -57,7 +57,7 @@ ammount = var3/rates[var1] *rates[var2]
 print(' your converted ammount is {0} {1}'.format(ammount,allowables[var2]))
 ```
 ####Evaluation
-To evaluate my work i have sucesfully made a code that convestes one currency to another.
+To evaluate my work i have sucesfully made a code that convestes one currency to another.My co
 
 
 
