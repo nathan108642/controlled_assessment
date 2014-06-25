@@ -12,7 +12,7 @@ In this programme I have made a curency converter.the user told me that i needed
 The code should be able to have exchange rates changed by the user.The user shouldbe able to enter an amount, select the chosen currency for thisand the  currency into which this should be converted.The figure shown should be displayed to two decimal places, for example to the nearest cent in US Dollars.
 
 ####Pseudo code
-
+```
 It will ask for what money you want to convert from.
 It asks for the numbers 1 to 4.
 This means if the user inputs 1 its pounds, if the user inputs 2 its euros and so on.
@@ -22,7 +22,7 @@ It then takes the numbers (Rates) and multiplys then together.
 It then prints out the answer.
 The answer is the value of the two numbers you just multiplyed.
 If you enter you want to convert from pounds, to pounds it just prints the number you entered.
-
+```
 
 
 
