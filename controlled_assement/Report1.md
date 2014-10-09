@@ -3,7 +3,7 @@
 ##Task 1
 
 
-In this programme i have made a curency converter thats changes the money you type in to a different currency.the dsign of my programme was to try and make code that acts like a currency converter but try and make as short as i could.the code needed to convert money from euro, yen, pounds and dollars.the user need a code that works and is easy to use. 
+In this programme i have made a curency converter thats changes the money you type in to a different currency.the design of my programme was to try and make code that acts like a currency converter but try and make as short as i could to fit the users needs.The code needed to convert money from euro, yen, pounds and dollars.This code works and is easy for the user to navigate around the code. 
 
 ###Design
 
@@ -13,15 +13,15 @@ The code should be able to have exchange rates changed by the user.The user shou
 
 ####Pseudo code
 ```
-It will ask for what money you want to convert from.
+It will ask the user what they want to convert from.
 It asks for the numbers 0 to 3.
-This means if the user inputs 0 its pounds, if the user inputs 1 its euros and so on.
+If the user inputs 0 its pounds, if the user inputs 1 its euros and so on.
 After that it then asks what currency you want to convert to.
 Once again it asks the user to input 0 to 3 numbers.
-It then takes the numbers (Rates) and multiplys then together.
-It then prints out the answer.
+It then takes the numbers hte user iputs and multiplys them together.
+It then prints or outputs the answer (curreny).
 The answer is the value of the two numbers you just multiplyed.
-If you enter you want to convert from pounds, to pounds it just prints the number you entered.
+If you enter that you want to convert from pounds, to pounds it just prints the number you entered.
 ```
 
 
@@ -57,7 +57,7 @@ ammount = var3/rates[var1] *rates[var2]
 print(' your converted ammount is {0} {1}'.format(ammount,allowables[var2]))
 ```
 ####Evaluation
-To evaluate my work i have sucesfully made a code that convestes one currency to another.My co
+To evaluate my work i have sucesfully made a code that convertes one currency to another.My code is a very sufficient way of converting the to currencies.
 
 
 
