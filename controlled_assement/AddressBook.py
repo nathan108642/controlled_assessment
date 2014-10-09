@@ -1,6 +1,6 @@
 answer = raw_input("Are You Creating An Entry [Press 1] \nOr Are You Searching An Entry [Press 2] ")
 
-# IF we are creating 
+#if we are creating 
 
 if answer == "1" : 
     #print ("This is where we create")
@@ -12,7 +12,7 @@ if answer == "1" :
     email = raw_input("What is the persons email address? ")
     address = raw_input("What is the persons address? ")
 
-    #create or append addressbookdata
+    #create or search addressbookdata
 
     temp1 = open("addressbookdata","a")
     
@@ -23,7 +23,7 @@ if answer == "1" :
     temp1.write(firstname + " " + lastname + ", " + phone + ", " + email + ", " + address)
     temp1.write("\n")
 
-# SEARCHING FOR A RECORD
+# Programme searching for the information
 
 elif answer == "2" :
     print ("this is where we search")
@@ -37,7 +37,7 @@ elif answer == "2" :
             print("can't find it")
        
 
-# USER DID NOT PICK CREATE OR SEARCH 
+#user did not pick or enter information
 
 else :
     print ("Incorrect Answer")
