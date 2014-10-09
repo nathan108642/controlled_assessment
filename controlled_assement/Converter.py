@@ -6,7 +6,7 @@ def getChoice(dir):
         print('Please type the currency code you wish to convert {0}'.format(dir))
         for index, currency in enumerate(allowables):
             print ('enter {0} for {1}'.format(index, currency))
-        answer = input("Please type what currency you wish to convert {0} ".format(dir))
+        answer = input("Please type which currency you wish to convert {0} ".format(dir))
     return (int(answer))
 pounds = 'pounds'
 dollars = 'dollars'
