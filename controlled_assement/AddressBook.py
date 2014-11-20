@@ -11,6 +11,7 @@ if answer == "1" :
     phone = raw_input("What id the persons phone number? ")
     email = raw_input("What is the persons email address? ")
     address = raw_input("What is the persons address? ")
+    date of birth = raw_input("What is the persons date of birth? ")
 
     #create or search addressbookdata
 
